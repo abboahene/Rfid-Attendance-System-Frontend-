@@ -1,0 +1,93 @@
+.indexBody{
+    display: block;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+div.col-7.p-0.h-100{
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgb(4, 68, 18) 0%, rgba(19,121,9,1) 37%, rgba(0,255,136,1) 100%);
+}
+/* .wrapper.text-center{
+    border: black solid 3px;
+}
+.count.row{
+    border: black solid 3px;
+} */
+
+select{
+    border: 2px solid rgb(32, 161, 32);
+    border-radius: 5px;
+}
+
+.col-6.black{
+    background-color: #000;
+}
+.counter{
+    font-size:8rem;
+}
+.btn.btn-primary{
+    width: 100%;
+}
+
+#sidebar{
+    display: fixed;
+    height: 100vh;
+}
+
+#toast{
+    display: none;
+    position: absolute;
+    top: 102px;
+    right: 20px;
+    z-index: 9999;
+}
+.valid {
+    height: 30px;
+    background:url('../../images/valid.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    padding: 30px;
+
+}
+.invalid {
+    background: url('../../images/invalid.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+.preloader{
+    padding: 20px;
+}
+
+.preloader:before {
+    content: "";
+    position: fixed;
+    border: 4px dotted #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: animate-preloader .9s linear infinite;
+    animation: animate-preloader .9s linear infinite;
+}
+  
+@-webkit-keyframes animate-preloader {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+@keyframes animate-preloader {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
